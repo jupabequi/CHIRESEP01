@@ -75,6 +75,7 @@
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.xib" />
     <InterfaceDefinition Include="Main.storyboard" />
+    <InterfaceDefinition Include="Interface.storyboard" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -96,5 +97,9 @@
       <Name>CHIRESEP01WatchKitExtension</Name>
       <IsAppExtension>True</IsAppExtension>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\botones.png" />
+    <BundleResource Include="Resources\boton134.png" />
   </ItemGroup>
 </Project>

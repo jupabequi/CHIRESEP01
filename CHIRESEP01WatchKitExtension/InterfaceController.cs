@@ -7,12 +7,16 @@ namespace CHIRESEP01WatchKitExtension
 {
 	public partial class InterfaceController : WKInterfaceController
 	{
+		int clickCount =0;
+
 		public InterfaceController (IntPtr handle) : base (handle)
 		{
 		}
 
 		public override void Awake (NSObject context)
 		{
+
+		
 			base.Awake (context);
 
 			// Configure interface objects here.
@@ -30,6 +34,8 @@ namespace CHIRESEP01WatchKitExtension
 			// This method is called when the watch view controller is no longer visible to the user.
 			Console.WriteLine ("{0} did deactivate", this);
 		}
+
+
 	}
 }
 
